@@ -1,0 +1,314 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 65.5%;
+}
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+/* Common */
+.container {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: calc(100% - 130px);
+}
+a {
+    text-decoration: none;
+}
+.btn {
+    width: 173px;
+    height: 57px;
+    border-radius: 40px;
+    border: 1.5px solid #143c3c;
+    text-align: center;
+    font-family: Public Sans;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.56;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #143c3c;
+    color: #fff;
+}
+/* header */
+.header {
+    margin-top: 28px;
+}
+.header-top {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding-bottom: 13px;
+}
+
+.navbar {
+    margin-left: 406px;
+}
+.navbar-list {
+    display: flex;
+    column-gap: 38px;
+}
+.navbar__link {
+    font-family: Public Sans;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.56;
+    color: #575d5e;
+}
+.navbar__item {
+    padding: 10px 0;
+}
+.navbar__item:hover .navbar__link {
+    color: #152427;
+}
+.navbar__btn {
+    margin-left: 88px;
+}
+.header__line {
+    border-bottom: 1px solid #dddcdc;
+    position: relative;
+}
+.header__line::after {
+    width: 16px;
+    height: 2px;
+    background: #143c3c;
+    display: block;
+    position: absolute;
+    content: "";
+    left: 557px;
+}
+.hero {
+    padding-top: 28px;
+    display: flex;
+    position: relative;
+}
+.hero__heading {
+    margin-top: 103px;
+    color: #152427;
+    font-family: Public Sans;
+    font-size: 5rem;
+    font-weight: 800;
+    line-height: 1.2;
+    width: 385px;
+}
+.hero__desc {
+    margin-top: 20px;
+    color: #575d5e;
+    font-family: Public Sans;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.56;
+    width: 352px;
+}
+.hero-click {
+    display: flex;
+    margin-top: 42px;
+}
+.hero__vid {
+    display: flex;
+    margin-left: 36px;
+    align-items: center;
+    justify-content: center;
+}
+/* .hero__btn {
+    display: flex;
+} */
+.hero__action {
+    width: 44px;
+    height: 43px;
+    border-radius: 50%;
+    background: #83a17d;
+    border: none;
+    margin-left: -23px;
+    margin-bottom: 3px;
+}
+.hero__watch {
+    color: #152427;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.67;
+    margin-left: 15px;
+    white-space: nowrap;
+}
+.hero-right {
+    margin-left: 76px;
+    display: flex;
+    margin-top: 32px;
+}
+.hero__imgs {
+    column-gap: 20px;
+    display: flex;
+}
+.hero-right__img {
+    width: 202px;
+    height: 466px;
+    border-radius: 110px;
+    object-fit: cover;
+    white-space: nowrap;
+}
+.hero-right__img2 {
+    position: relative;
+    top: 77px;
+    box-shadow: 0px 1px 70px 30px #83a17d;
+}
+.hero-flowers__thread {
+    position: absolute;
+    left: 249px;
+}
+.hero-flowers__flower {
+    position: absolute;
+    left: 203px;
+    top: 30px;
+}
+.hero-flowers__thread2 {
+    position: absolute;
+    rotate: 180deg;
+    right: 44px;
+    bottom: -150px;
+}
+.hero-flowers__flower2 {
+    position: absolute;
+    right: 10px;
+    bottom: -128px;
+}
+
+/* Company */
+.company-names {
+    margin-top: 207px;
+}
+.company {
+    background: #e2eddf;
+    border-radius: 100.5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 201px;
+}
+.company-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0;
+    column-gap: 50px;
+    max-width: 897px;
+}
+.company-list__itemgg span {
+    color: var(--primary-color-black-green, #143c3c);
+    font-size: 3.1rem;
+    font-weight: 500;
+}
+.item {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.company-list__itemsk {
+    color: var(--primary-color-black-green, #143c3c);
+    font-family: Poppins;
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+.company-list__itemad {
+    color: #163c35;
+    font-size: 2.6rem;
+    font-weight: 400;
+}
+.company-list__itemad span {
+    margin-left: 11px;
+}
+.company-list__itemro {
+    color: var(--primary-color-black-green, #143c3c);
+    font-family: Sonsie One;
+    font-size: 2.3rem;
+    font-weight: 400;
+}
+.company-list__itemhu span {
+    color: var(--primary-color-black-green, #143c3c);
+    font-size: 1.9rem;
+    font-weight: 600;
+    letter-spacing: 1.995px;
+}
+/* services */
+.services {
+    margin-top: 106px;
+}
+.service__text {
+    color: var(--primary-color-black, #152427);
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.63;
+    position: relative;
+    padding-left: 35px;
+}
+.service__text::before {
+    display: block;
+    position: absolute;
+    content: "";
+    width: 25px;
+    height: 1px;
+    background: var(--primary-color-black, #152427);
+    top: 10px;
+    left: -1px;
+}
+.service-rectangle {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+.service-rectangle__heading {
+    color: var(--primary-color-black, #152427);
+    font-size: 4.2rem;
+    font-weight: 600;
+    line-height: 1.24;
+    max-width: 545px;
+    position: relative;
+}
+.service-rectangle__heading::after {
+    width: 66px;
+    height: 2px;
+    background: var(--primary-color-black, #152427);
+    position: absolute;
+    display: block;
+    content: "";
+    right: 103px;
+    top: 83px;
+}
+.service__btn {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background: #e2eddf;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    /* column-gap: 17px; */
+    margin-top: 45px;
+}
+.service__btn-left,
+.service__btn-right {
+    color: #152427;
+}
+.service__btn-right {
+    rotate: 180deg;
+}
+.service__btn2 {
+    margin-right: 70px;
+}
+.service__btn1 {
+    margin-right: 17px;
+}
+.service__btn:hover {
+    background: #143c3c;
+}
+.service__btn:hover .service__btn-left {
+    color: #fff;
+}
+.service__btn:hover .service__btn-right {
+    color: #fff;
+}
